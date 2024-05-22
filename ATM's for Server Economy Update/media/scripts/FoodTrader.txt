@@ -1,8 +1,9 @@
 module AutomaticEconomyTrader {
-    imports {
+    imports 
+    {
         Base
     }
-/*****maquina para hacer los canjes******/
+
 	item FoodTrader
     {
         Weight          = 60.0,
@@ -14,11 +15,7 @@ module AutomaticEconomyTrader {
 		DisplayCategory	= Money,
     }
 	
-	/**************objetos intercambiables**************/
-	
-	/*Comida*/
-	
-	recipe ecoBuyCannedSardines //Comida ligera por Dinero
+	recipe ecoBuyCannedSardines
     {
         destroy Money=3,
         keep FoodTrader,
@@ -30,7 +27,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe ecoBuyCannedBolognese //Comida enlatada por Dinero
+	recipe ecoBuyCannedBolognese
     {
         destroy Money=4,
         keep FoodTrader,
@@ -42,7 +39,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe ecoBuyPop2 //Soda por Dinero
+	recipe ecoBuyPop2
     {
         destroy Money=1,
         keep FoodTrader,
@@ -54,7 +51,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe ecoBuyWaterBottleFull //Agua por Dinero
+	recipe ecoBuyWaterBottleFull
     {
         destroy Money=2,
         keep FoodTrader,
@@ -66,7 +63,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe ecoBuyTinOpener //Abrelatas por Dinero
+	recipe ecoBuyTinOpener
     {
         destroy Money=2,
         keep FoodTrader,

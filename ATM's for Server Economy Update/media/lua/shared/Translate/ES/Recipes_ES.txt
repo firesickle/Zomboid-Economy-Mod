@@ -1,19 +1,16 @@
 Recipes_ES = {
-	/*Comida*/
 	Recipe_ecoBuyCannedSardines = "Comida ligera(1) por Dinero(3)",
 	Recipe_ecoBuyCannedBolognese = "Comida enlatada(1) por Dinero(4)",
 	Recipe_ecoBuyPop2 = "Soda(1) por Dinero(1)",
 	Recipe_ecoBuyWaterBottleFull = "Agua(1) por Dinero(2)",
 	Recipe_ecoBuyTinOpener = "Abrelatas(1) por Dinero(2)",
 	
-	/*Joyas*/
 	Recipe_ecoSellSpareChange = "Centavos(10) por Dinero(1)",
 	Recipe_ecoSellForTwoCent = "Decimos(2) a cambio de Relojes y Accesorios",
 	Recipe_ecoSellForFiveCent = "Decimos(5) a cambio de joyas con Minerales(oro,plata,gemas)",
 	Recipe_ecoSellForOneDollar = "Dinero(1) a cambio de Diamantes",
 	Recipe_ecoSellForFiveDollar = "Dinero(5) a cambio de Amuletos y Tags",
 	
-	/*Armas*/
 	Recipe_ecoBuyPan = "Sarten(1) por Dinero(5)",
 	Recipe_ecoBuyKatana = "Katana(1) por Dinero(100)",
 	Recipe_ecoBuyMachete = "Machete(1) por Dinero(65)",
@@ -28,19 +25,14 @@ Recipes_ES = {
 	Recipe_ecoBuy9mmClip = "Cartucho para M911(1) por Dinero(5)",
 	Recipe_ecoBuyBullets9mmBox = "Caja de balas de M911(1) por Dinero(10)",
 	
-	/*Herramientas*/
-	
-		/*A dos manos*/
 	Recipe_ecoBuyAxe = "Hacha(1) por Dinero(30)",
 	Recipe_ecoBuySledgehammer = "Almadena(1) por Dinero(50)",
 	Recipe_ecoBuyCrowbar = "Palanca(1) por Dinero(15)",
 	Recipe_ecoBuyBlowTorch = "Soplete(1) por Dinero(10)",
 	
-		/*Materiales*/
 	Recipe_ecoBuySheetMetal = "Chapa metalica(1) por Dinero(10)",
 	Recipe_ecoBuySmallSheetMetal = "Chapa metalica(1) por Dinero(10)",
 	
-		/*Herramientas varias*/
 	Recipe_ecoBuyJack = "Gato(1) por Dinero(5)",
 	Recipe_ecoBuyTirePump = "Inflador de neumaticos(1) por Dinero(5)",
 	Recipe_ecoBuyLugWrench = "Llave de Cruz(1) por Dinero(5)",
@@ -50,27 +42,20 @@ Recipes_ES = {
 	Recipe_ecoBuyWeldingMask = "Mascara de soldador(1) por Dinero(10)",
 	Recipe_ecoBuyPetrolCan = "Bidon de Gasolina Lleno(1) por Dinero(20)",
 	
-	/*Mecanico*/
-	
-		/*Motor*/
 	Recipe_ecoBuyEngineParts = "Pieza de Motor(1) por Dinero(10)",
 	
-		/*Baterías*/
 	Recipe_ecoBuyCarBattery1 = "Bateria Estandar por Dinero(12)",
 	Recipe_ecoBuyCarBattery2 = "Bateria Industrial por Dinero(12)",
 	Recipe_ecoBuyCarBattery3 = "Bateria Deportivo por Dinero(12)",
 	
-		/*Capós*/
 	Recipe_ecoBuyEngineDoor1 = "Cofre(Capo) Estandar por Dinero(15)",
 	Recipe_ecoBuyEngineDoor2 = "Cofre(Capo) Industrial por Dinero(15)",
 	Recipe_ecoBuyEngineDoor3 = "Cofre(Capo) Deportivo por Dinero(15)",
 	
-		/*Maleteros*/
 	Recipe_ecoBuyTrunkDoor1 = "Tapa(maletero) Estandar por Dinero(15)",
 	Recipe_ecoBuyTrunkDoor2 = "Tapa(maletero) Industrial por Dinero(15)",
 	Recipe_ecoBuyTrunkDoor3 = "Tapa(maletero) Deportivo por Dinero(15)",
 	
-		/*Frenos*/
 	Recipe_ecoBuyOldBrake1 ="Freno Viejo Estandar por Dinero(10)",
 	Recipe_ecoBuyOldBrake2 ="Freno Viejo Industrial por Dinero(10)",
 	Recipe_ecoBuyOldBrake3 ="Freno Viejo Deportivo por Dinero(10)",
@@ -81,7 +66,6 @@ Recipes_ES = {
 	Recipe_ecoBuyModernBrake2 ="Freno Deportivo Industrial por Dinero(30)",
 	Recipe_ecoBuyModernBrake3 ="Freno Deportivo Deportivo por Dinero(30)",
 	
-		/*PUERTAS*/
 	Recipe_ecoBuyFrontCarDoor1 ="Puerta Delantera Estandar por Dinero(15)",
 	Recipe_ecoBuyFrontCarDoor2 ="Puerta Delantera Industrial por Dinero(15)",
 	Recipe_ecoBuyFrontCarDoor3 ="Puerta Delantera Deportivo por Dinero(15)",
@@ -92,7 +76,6 @@ Recipes_ES = {
 	Recipe_ecoBuyRearCarDoorDouble2 ="Puerta Tasera Doble Industrial por Dinero(20)",
 	Recipe_ecoBuyRearCarDoorDouble3 ="Puerta Tasera Doble Deportivo por Dinero(20)",
 	
-		/*DEPOSITO GASOLINA*/
 	Recipe_ecoBuySmallGasTank1 ="Deposito Gasolina Chico Estandar por Dinero(10)",
 	Recipe_ecoBuySmallGasTank2 ="Deposito Gasolina Chico Industrial por Dinero(10)",
 	Recipe_ecoBuySmallGasTank3 ="Deposito Gasolina Chico Deportivo por Dinero(10)",
@@ -103,7 +86,6 @@ Recipes_ES = {
 	Recipe_ecoBuyBigGasTank2 ="Deposito Gasolina Grande Industrial por Dinero(30)",
 	Recipe_ecoBuyBigGasTank3 ="Deposito Gasolina Grande Deportivo por Dinero(30)",
 	
-		/*ESCAPES DE AUTO*/
 	Recipe_ecoBuyOldCarMuffler1 ="Escape Viejo Estandar por Dinero(10)",
 	Recipe_ecoBuyOldCarMuffler2 ="Escape Viejo Industrial por Dinero(10)",
 	Recipe_ecoBuyOldCarMuffler3 ="Escape Viejo Deportivo por Dinero(10)",
@@ -114,7 +96,6 @@ Recipes_ES = {
 	Recipe_ecoBuyModernCarMuffler2 ="Escape Deportivo Industrial por Dinero(30)",
 	Recipe_ecoBuyModernCarMuffler3 ="Escape Deportivo Deportivo por Dinero(30)",
 	
-		/**  SUSPENSION  **/
 	Recipe_ecoBuyNormalSuspension1 ="Suspencion Regular Estandar por Dinero(5)",
 	Recipe_ecoBuyNormalSuspension2 ="Suspencion Regular Industrial por Dinero(5)",
 	Recipe_ecoBuyNormalSuspension3 ="Suspencion Regular Deportivo por Dinero(5)",
@@ -122,12 +103,10 @@ Recipes_ES = {
 	Recipe_ecoBuyModernSuspension2 ="Suspencion Deportiva Industrial por Dinero(10)",
 	Recipe_ecoBuyModernSuspension3 ="Suspencion Deportiva Deportivo por Dinero(10)",
 	
-		/*ASIENTOS*/
 	Recipe_ecoBuyNormalCarSeat1 ="Asiento Normal Estandar por Dinero(10)",
 	Recipe_ecoBuyNormalCarSeat2 ="Asiento Normal Industrial por Dinero(12)",
 	Recipe_ecoBuyNormalCarSeat3 ="Asiento Normal Deportivo por Dinero(15)",
 	
-		/*LLANTAS*/
 	Recipe_ecoBuyOldTire1 ="Llanta vieja Estandar por Dinero(5)",
 	Recipe_ecoBuyOldTire2 ="Llanta vieja Industrial por Dinero(5)",
 	Recipe_ecoBuyOldTire3 ="Llanta vieja Deportivo por Dinero(7)",
@@ -138,7 +117,6 @@ Recipes_ES = {
 	Recipe_ecoBuyModernTire2 ="Llanta Deportiva Industrial por Dinero(10)",
 	Recipe_ecoBuyModernTire3 ="Llanta Deportiva Deportivo por Dinero(13)",
 	
-		/*Ventanas y Parabrisas*/
 	Recipe_ecoBuyWindshield1 ="Parabrisas Frontal Estandar por Dinero(10)",
 	Recipe_ecoBuyWindshield2 ="Parabrisas Frontal Industrial por Dinero(10)",
 	Recipe_ecoBuyWindshield3 ="Parabrisas Frontal Deportivo por Dinero(10)",

@@ -1,8 +1,9 @@
 module AutomaticEconomyTrader {
-    imports {
+    imports 
+    {
         Base
     }
-/*****maquina para hacer los canjes******/
+
 	item ToolTrader
     {
         Weight          = 60.0,
@@ -14,11 +15,7 @@ module AutomaticEconomyTrader {
 		DisplayCategory	= Money,
     }
 	
-	/**************objetos intercambiables**************/
-	
-	/*Armas*/
-	
-	recipe ecoBuyAxe //Hacha por Dinero
+	recipe ecoBuyAxe
     {
         destroy Money=30,
         keep ToolTrader,
@@ -30,7 +27,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe ecoBuySheetMetal //Chapa por Dinero
+	recipe ecoBuySheetMetal
     {
         destroy Money=10,
         keep ToolTrader,
@@ -42,7 +39,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe ecoBuySmallSheetMetal //Chapa small por Dinero
+	recipe ecoBuySmallSheetMetal
     {
         destroy Money=5,
         keep ToolTrader,
@@ -54,7 +51,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe ecoBuyBlowTorch //Soplete por Dinero
+	recipe ecoBuyBlowTorch
     {
         destroy Money=10,
         keep ToolTrader,
@@ -66,7 +63,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe ecoBuyWeldingMask //Weldingmask por Dinero
+	recipe ecoBuyWeldingMask
     {
         destroy Money=10,
         keep ToolTrader,
@@ -78,7 +75,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe ecoBuyPetrolCan //GasFull por Dinero
+	recipe ecoBuyPetrolCan
     {
         destroy Money=20,
         keep ToolTrader,
@@ -90,7 +87,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe ecoBuyJack //Gato por Dinero
+	recipe ecoBuyJack
     {
         destroy Money=5,
         keep ToolTrader,
@@ -102,7 +99,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe ecoBuyTirePump //TirePump por Dinero
+	recipe ecoBuyTirePump
     {
         destroy Money=5,
         keep ToolTrader,
@@ -114,7 +111,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe ecoBuyLugWrench //LlaveCruz por Dinero
+	recipe ecoBuyLugWrench
     {
         destroy Money=5,
         keep ToolTrader,
@@ -126,7 +123,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe ecoBuyPipeWrench //LlaveTubos por Dinero
+	recipe ecoBuyPipeWrench
     {
         destroy Money=10,
         keep ToolTrader,
@@ -138,7 +135,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe ecoBuyCarBatteryCharger //BatteryCharger Dinero
+	recipe ecoBuyCarBatteryCharger
     {
         destroy Money=10,
         keep ToolTrader,
@@ -150,7 +147,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe ecoBuyPropaneTank //Propano Dinero
+	recipe ecoBuyPropaneTank
     {
         destroy Money=15,
         keep ToolTrader,
@@ -162,7 +159,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-    recipe ecoBuySledgehammer //Almadena Dinero
+    recipe ecoBuySledgehammer
     {
         destroy Money=50,
         keep ToolTrader,
@@ -174,7 +171,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-    recipe ecoBuyCrowbar //Palanca Dinero
+    recipe ecoBuyCrowbar
     {
         destroy Money=15,
         keep ToolTrader,

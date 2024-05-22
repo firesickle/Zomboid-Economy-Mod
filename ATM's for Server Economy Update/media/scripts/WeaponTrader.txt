@@ -1,8 +1,9 @@
 module AutomaticEconomyTrader {
-    imports {
+    imports 
+    {
         Base
     }
-/*****maquina para hacer los canjes******/
+
 	item WeaponTrader
     {
         Weight          = 60.0,
@@ -14,12 +15,7 @@ module AutomaticEconomyTrader {
 		DisplayCategory	= Money,
     }
 	
-	/**************objetos intercambiables**************/
-	
-	/*Armas*/
-	
-	
-	recipe ecoBuyPan //Sarten Dinero
+	recipe ecoBuyPan
     {
         destroy Money=5,
         keep WeaponTrader,
@@ -31,7 +27,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe ecoBuyKatana //Katana Dinero
+	recipe ecoBuyKatana
     {
         destroy Money=100,
         keep WeaponTrader,
@@ -43,7 +39,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 
-	recipe ecoBuyMachete //Machete Dinero
+	recipe ecoBuyMachete
     {
         destroy Money=65,
         keep WeaponTrader,
@@ -55,7 +51,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe ecoBuyMeatCleaver //Carnicero Dinero
+	recipe ecoBuyMeatCleaver
     {
         destroy Money=8,
         keep WeaponTrader,
@@ -67,7 +63,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe ecoBuyHuntingKnife //CCaza Dinero
+	recipe ecoBuyHuntingKnife
     {
         destroy Money=10,
         keep WeaponTrader,
@@ -79,7 +75,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe ecoBuyShotgun //Escopeta Dinero
+	recipe ecoBuyShotgun
     {
         destroy Money=30,
         keep WeaponTrader,
@@ -91,7 +87,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 
-	recipe ecoBuyShotgunShellsBox //Cartuchos Escopeta Dinero
+	recipe ecoBuyShotgunShellsBox
     {
         destroy Money=20,
         keep WeaponTrader,
@@ -103,7 +99,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe ecoBuyAssaultRifle //M16 Dinero
+	recipe ecoBuyAssaultRifle
     {
         destroy Money=80,
         keep WeaponTrader,
@@ -115,7 +111,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 
-	recipe ecoBuy556Clip //Cartucho M16 Dinero
+	recipe ecoBuy556Clip
     {
         destroy Money=20,
         keep WeaponTrader,
@@ -127,7 +123,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 
-	recipe ecoBuy556Box //Balas M16 Dinero
+	recipe ecoBuy556Box
     {
         destroy Money=42,
         keep WeaponTrader,
@@ -139,7 +135,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 
-	recipe ecoBuyPistol2 //M911 Dinero
+	recipe ecoBuyPistol2
     {
         destroy Money=12,
         keep WeaponTrader,
@@ -151,7 +147,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-    recipe ecoBuy9mmClip //Cartucho M911 Dinero
+    recipe ecoBuy9mmClip
     {
         destroy Money=5,
         keep WeaponTrader,
@@ -163,7 +159,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 
-	recipe ecoBuyBullets9mmBox //Balas M911 Dinero
+	recipe ecoBuyBullets9mmBox
     {
         destroy Money=10,
         keep WeaponTrader,
