@@ -18,7 +18,7 @@ module AutomaticEconomyTrader {
 	
 	/*Vehiculos*/
 	
-	recipe Motor Dinero
+	recipe ecoBuyEngineParts //Motor Dinero
     {
         destroy Money=10,
         keep VehicleTrader,
@@ -31,7 +31,7 @@ module AutomaticEconomyTrader {
     }
 	
 	/* baterias */
-	recipe Bateria1 Dinero
+	recipe ecoBuyCarBattery1 //Bateria1 Dinero
     {
         destroy Money=12,
         keep VehicleTrader,
@@ -43,7 +43,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Bateria2 Dinero
+	recipe ecoBuyCarBattery2 //Bateria2 Dinero
     {
         destroy Money=12,
         keep VehicleTrader,
@@ -55,7 +55,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Bateria3 Dinero
+	recipe ecoBuyCarBattery3 //Bateria3 Dinero
     {
         destroy Money=12,
         keep VehicleTrader,
@@ -68,7 +68,7 @@ module AutomaticEconomyTrader {
     }
 
 	/*hood capo cofre*/
-	recipe Capo1 Dinero
+	recipe ecoBuyEngineDoor1 //Capo1 Dinero
     {
         destroy Money=15,
         keep VehicleTrader,
@@ -80,7 +80,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Capo2 Dinero
+	recipe ecoBuyEngineDoor2 //Capo2 Dinero
     {
         destroy Money=15,
         keep VehicleTrader,
@@ -92,7 +92,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Capo3 Dinero
+	recipe ecoBuyEngineDoor3 //Capo3 Dinero
     {
         destroy Money=15,
         keep VehicleTrader,
@@ -105,7 +105,7 @@ module AutomaticEconomyTrader {
     }
 	
 	/*tapa para maletero*/
-	recipe Maletero1 Dinero
+	recipe ecoBuyTrunkDoor1 //Maletero1 Dinero
     {
         destroy Money=15,
         keep VehicleTrader,
@@ -117,7 +117,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Maletero2 Dinero
+	recipe ecoBuyTrunkDoor2 //Maletero2 Dinero
     {
         destroy Money=15,
         keep VehicleTrader,
@@ -129,7 +129,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Maletero3 Dinero
+	recipe ecoBuyTrunkDoor3 //Maletero3 Dinero
     {
         destroy Money=15,
         keep VehicleTrader,
@@ -141,7 +141,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	/*FRENOS*/
-	recipe Freno1 Dinero
+	recipe ecoBuyOldBrake1 //Freno1 Dinero
     {
         destroy Money=10,
         keep VehicleTrader,
@@ -153,7 +153,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Freno2 Dinero
+	recipe ecoBuyOldBrake2 //Freno2 Dinero
     {
         destroy Money=10,
         keep VehicleTrader,
@@ -165,7 +165,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Freno3 Dinero
+	recipe ecoBuyOldBrake3 //Freno3 Dinero
     {
         destroy Money=10,
         keep VehicleTrader,
@@ -177,7 +177,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Freno4 Dinero
+	recipe ecoBuyNormalBrake1 //Freno4 Dinero
     {
         destroy Money=20,
         keep VehicleTrader,
@@ -189,7 +189,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Freno5 Dinero
+	recipe ecoBuyNormalBrake2 //Freno5 Dinero
     {
         destroy Money=20,
         keep VehicleTrader,
@@ -201,7 +201,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Freno6 Dinero
+	recipe ecoBuyNormalBrake3 //Freno6 Dinero
     {
         destroy Money=20,
         keep VehicleTrader,
@@ -213,7 +213,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Freno7 Dinero
+	recipe ecoBuyModernBrake1 //Freno7 Dinero
     {
         destroy Money=30,
         keep VehicleTrader,
@@ -225,7 +225,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Freno8 Dinero
+	recipe ecoBuyModernBrake2 //Freno8 Dinero
     {
         destroy Money=30,
         keep VehicleTrader,
@@ -237,7 +237,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Freno9 Dinero
+	recipe ecoBuyModernBrake3 //Freno9 Dinero
     {
         destroy Money=30,
         keep VehicleTrader,
@@ -251,7 +251,7 @@ module AutomaticEconomyTrader {
 	
 	/*PUERTAS*/
 	
-	recipe Puerta1 Dinero
+	recipe ecoBuyFrontCarDoor1 //Puerta1 Dinero
     {
         destroy Money=15,
         keep VehicleTrader,
@@ -263,7 +263,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Puerta2 Dinero
+	recipe ecoBuyFrontCarDoor2 //Puerta2 Dinero
     {
         destroy Money=15,
         keep VehicleTrader,
@@ -275,7 +275,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Puerta3 Dinero
+	recipe ecoBuyFrontCarDoor3 //Puerta3 Dinero
     {
         destroy Money=15,
         keep VehicleTrader,
@@ -287,7 +287,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Puerta4 Dinero
+	recipe ecoBuyRearCarDoor1 //Puerta4 Dinero
     {
         destroy Money=15,
         keep VehicleTrader,
@@ -299,7 +299,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Puerta5 Dinero
+	recipe ecoBuyRearCarDoor2 //Puerta5 Dinero
     {
         destroy Money=15,
         keep VehicleTrader,
@@ -311,7 +311,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Puerta6 Dinero
+	recipe ecoBuyRearCarDoor3 //Puerta6 Dinero
     {
         destroy Money=15,
         keep VehicleTrader,
@@ -323,7 +323,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Puerta7 Dinero
+	recipe ecoBuyRearCarDoorDouble1 //Puerta7 Dinero
     {
         destroy Money=20,
         keep VehicleTrader,
@@ -335,7 +335,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Puerta8 Dinero
+	recipe ecoBuyRearCarDoorDouble2 //Puerta8 Dinero
     {
         destroy Money=20,
         keep VehicleTrader,
@@ -347,7 +347,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Puerta9 Dinero
+	recipe ecoBuyRearCarDoorDouble3 //Puerta9 Dinero
     {
         destroy Money=20,
         keep VehicleTrader,
@@ -361,7 +361,7 @@ module AutomaticEconomyTrader {
 	
 	/*DEPOSITO GASOLINA*/
 	
-	recipe Deposito1 Dinero
+	recipe ecoBuySmallGasTank1 //Deposito1 Dinero
     {
         destroy Money=10,
         keep VehicleTrader,
@@ -373,7 +373,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Deposito2 Dinero
+	recipe ecoBuySmallGasTank2 //Deposito2 Dinero
     {
         destroy Money=10,
         keep VehicleTrader,
@@ -385,7 +385,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Deposito3 Dinero
+	recipe ecoBuySmallGasTank3 //Deposito3 Dinero
     {
         destroy Money=10,
         keep VehicleTrader,
@@ -397,7 +397,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Deposito4 Dinero
+	recipe ecoBuyNormalGasTank1 //Deposito4 Dinero
     {
         destroy Money=20,
         keep VehicleTrader,
@@ -409,7 +409,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Deposito5 Dinero
+	recipe ecoBuyNormalGasTank2 //Deposito5 Dinero
     {
         destroy Money=20,
         keep VehicleTrader,
@@ -421,7 +421,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Deposito6 Dinero
+	recipe ecoBuyNormalGasTank3 //Deposito6 Dinero
     {
         destroy Money=20,
         keep VehicleTrader,
@@ -433,7 +433,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Deposito7 Dinero
+	recipe ecoBuyBigGasTank1 //Deposito7 Dinero
     {
         destroy Money=30,
         keep VehicleTrader,
@@ -445,7 +445,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Deposito8 Dinero
+	recipe ecoBuyBigGasTank2 //Deposito8 Dinero
     {
         destroy Money=30,
         keep VehicleTrader,
@@ -457,7 +457,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Deposito9 Dinero
+	recipe ecoBuyBigGasTank3 //Deposito9 Dinero
     {
         destroy Money=30,
         keep VehicleTrader,
@@ -471,7 +471,7 @@ module AutomaticEconomyTrader {
 	
 	/*ESCAPES DE AUTO*/
 	
-	recipe Escape1 Dinero
+	recipe ecoBuyOldCarMuffler1 //Escape1 Dinero
     {
         destroy Money=10,
         keep VehicleTrader,
@@ -483,7 +483,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Escape2 Dinero
+	recipe ecoBuyOldCarMuffler2 //Escape2 Dinero
     {
         destroy Money=10,
         keep VehicleTrader,
@@ -495,7 +495,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Escape3 Dinero
+	recipe ecoBuyOldCarMuffler3 //Escape3 Dinero
     {
         destroy Money=10,
         keep VehicleTrader,
@@ -507,7 +507,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Escape4 Dinero
+	recipe ecoBuyNormalCarMuffler1 //Escape4 Dinero
     {
         destroy Money=20,
         keep VehicleTrader,
@@ -519,7 +519,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Escape5 Dinero
+	recipe ecoBuyNormalCarMuffler2 //Escape5 Dinero
     {
         destroy Money=20,
         keep VehicleTrader,
@@ -531,7 +531,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Escape6 Dinero
+	recipe ecoBuyNormalCarMuffler3 //Escape6 Dinero
     {
         destroy Money=20,
         keep VehicleTrader,
@@ -543,7 +543,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Escape7 Dinero
+	recipe ecoBuyModernCarMuffler1 //Escape7 Dinero
     {
         destroy Money=30,
         keep VehicleTrader,
@@ -555,7 +555,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Escape8 Dinero
+	recipe ecoBuyModernCarMuffler2 //Escape8 Dinero
     {
         destroy Money=30,
         keep VehicleTrader,
@@ -567,7 +567,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Escape9 Dinero
+	recipe ecoBuyModernCarMuffler3 //Escape9 Dinero
     {
         destroy Money=30,
         keep VehicleTrader,
@@ -581,7 +581,7 @@ module AutomaticEconomyTrader {
 	
 	/**  SUSPENSION  **/
 	
-	recipe Susp1 Dinero
+	recipe ecoBuyNormalSuspension1 //Susp1 Dinero
     {
         destroy Money=5,
         keep VehicleTrader,
@@ -593,7 +593,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Susp2 Dinero
+	recipe ecoBuyNormalSuspension2 //Susp2 Dinero
     {
         destroy Money=5,
         keep VehicleTrader,
@@ -605,7 +605,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Susp3 Dinero
+	recipe ecoBuyNormalSuspension3 //Susp3 Dinero
     {
         destroy Money=5,
         keep VehicleTrader,
@@ -617,7 +617,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Susp4 Dinero
+	recipe ecoBuyModernSuspension1 //Susp4 Dinero
     {
         destroy Money=10,
         keep VehicleTrader,
@@ -629,7 +629,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Susp5 Dinero
+	recipe ecoBuyModernSuspension2 //Susp5 Dinero
     {
         destroy Money=10,
         keep VehicleTrader,
@@ -641,7 +641,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Susp6 Dinero
+	recipe ecoBuyModernSuspension3 //Susp6 Dinero
     {
         destroy Money=10,
         keep VehicleTrader,
@@ -655,7 +655,7 @@ module AutomaticEconomyTrader {
 	
 	/*ASIENTOS*/
 	
-	recipe Asiento1 Dinero
+	recipe ecoBuyNormalCarSeat1 //Asiento1 Dinero
     {
         destroy Money=10,
         keep VehicleTrader,
@@ -667,7 +667,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Asiento2 Dinero
+	recipe ecoBuyNormalCarSeat2 //Asiento2 Dinero
     {
         destroy Money=12,
         keep VehicleTrader,
@@ -679,7 +679,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Asiento3 Dinero
+	recipe ecoBuyNormalCarSeat3 //Asiento3 Dinero
     {
         destroy Money=15,
         keep VehicleTrader,
@@ -694,7 +694,7 @@ module AutomaticEconomyTrader {
 	
 	/*LLANTAS*/
 	
-	recipe Llanta1 Dinero
+	recipe ecoBuyOldTire1 //Llanta1 Dinero
     {
         destroy Money=5,
         keep VehicleTrader,
@@ -706,7 +706,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Llanta2 Dinero
+	recipe ecoBuyOldTire2 //Llanta2 Dinero
     {
         destroy Money=5,
         keep VehicleTrader,
@@ -718,7 +718,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Llanta3 Dinero
+	recipe ecoBuyOldTire3 //Llanta3 Dinero
     {
         destroy Money=7,
         keep VehicleTrader,
@@ -730,7 +730,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Llanta4 Dinero
+	recipe ecoBuyNormalTire1 //Llanta4 Dinero
     {
         destroy Money=7,
         keep VehicleTrader,
@@ -742,7 +742,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Llanta5 Dinero
+	recipe ecoBuyNormalTire2 //Llanta5 Dinero
     {
         destroy Money=7,
         keep VehicleTrader,
@@ -754,7 +754,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Llanta6 Dinero
+	recipe ecoBuyNormalTire3 //Llanta6 Dinero
     {
         destroy Money=10,
         keep VehicleTrader,
@@ -766,7 +766,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Llanta7 Dinero
+	recipe ecoBuyModernTire1 //Llanta7 Dinero
     {
         destroy Money=10,
         keep VehicleTrader,
@@ -778,7 +778,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Llanta8 Dinero
+	recipe ecoBuyModernTire2 //Llanta8 Dinero
     {
         destroy Money=10,
         keep VehicleTrader,
@@ -790,7 +790,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Llanta9 Dinero
+	recipe ecoBuyModernTire3 //Llanta9 Dinero
     {
         destroy Money=13,
         keep VehicleTrader,
@@ -804,7 +804,7 @@ module AutomaticEconomyTrader {
 	
 	/*Ventanas y Parabrisas*/
 	
-	recipe Para1 Dinero
+	recipe ecoBuyWindshield1 //Para1 Dinero
     {
         destroy Money=10,
         keep VehicleTrader,
@@ -816,7 +816,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Para2 Dinero
+	recipe ecoBuyWindshield2 //Para2 Dinero
     {
         destroy Money=10,
         keep VehicleTrader,
@@ -828,7 +828,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Para3 Dinero
+	recipe ecoBuyWindshield3 //Para3 Dinero
     {
         destroy Money=10,
         keep VehicleTrader,
@@ -840,7 +840,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Para4 Dinero
+	recipe ecoBuyRearWindshield1 //Para4 Dinero
     {
         destroy Money=10,
         keep VehicleTrader,
@@ -852,7 +852,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Para5 Dinero
+	recipe ecoBuyRearWindshield2 //Para5 Dinero
     {
         destroy Money=10,
         keep VehicleTrader,
@@ -864,7 +864,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Para6 Dinero
+	recipe ecoBuyRearWindshield3 //Para6 Dinero
     {
         destroy Money=10,
         keep VehicleTrader,
@@ -876,7 +876,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Ventana1 Dinero
+	recipe ecoBuyFrontWindow1 //Ventana1 Dinero
     {
         destroy Money=10,
         keep VehicleTrader,
@@ -888,7 +888,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Ventana2 Dinero
+	recipe ecoBuyFrontWindow2 //Ventana2 Dinero
     {
         destroy Money=10,
         keep VehicleTrader,
@@ -900,7 +900,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Ventana3 Dinero
+	recipe ecoBuyFrontWindow3 //Ventana3 Dinero
     {
         destroy Money=10,
         keep VehicleTrader,
@@ -912,7 +912,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Ventana4 Dinero
+	recipe ecoBuyRearWindow1 //Ventana4 Dinero
     {
         destroy Money=10,
         keep VehicleTrader,
@@ -924,7 +924,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Ventana5 Dinero
+	recipe ecoBuyRearWindow2 //Ventana5 Dinero
     {
         destroy Money=10,
         keep VehicleTrader,
@@ -936,7 +936,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Ventana6 Dinero
+	recipe ecoBuyRearWindow3 //Ventana6 Dinero
     {
         destroy Money=10,
         keep VehicleTrader,

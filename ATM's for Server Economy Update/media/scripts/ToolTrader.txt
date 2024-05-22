@@ -18,7 +18,7 @@ module AutomaticEconomyTrader {
 	
 	/*Armas*/
 	
-	recipe Hacha por Dinero
+	recipe ecoBuyAxe //Hacha por Dinero
     {
         destroy Money=30,
         keep ToolTrader,
@@ -30,7 +30,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Chapa por Dinero
+	recipe ecoBuySheetMetal //Chapa por Dinero
     {
         destroy Money=10,
         keep ToolTrader,
@@ -42,7 +42,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Chapa small por Dinero
+	recipe ecoBuySmallSheetMetal //Chapa small por Dinero
     {
         destroy Money=5,
         keep ToolTrader,
@@ -54,7 +54,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Soplete por Dinero
+	recipe ecoBuyBlowTorch //Soplete por Dinero
     {
         destroy Money=10,
         keep ToolTrader,
@@ -66,7 +66,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Weldingmask por Dinero
+	recipe ecoBuyWeldingMask //Weldingmask por Dinero
     {
         destroy Money=10,
         keep ToolTrader,
@@ -78,7 +78,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe GasFull por Dinero
+	recipe ecoBuyPetrolCan //GasFull por Dinero
     {
         destroy Money=20,
         keep ToolTrader,
@@ -90,7 +90,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Gato por Dinero
+	recipe ecoBuyJack //Gato por Dinero
     {
         destroy Money=5,
         keep ToolTrader,
@@ -102,7 +102,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe TirePump por Dinero
+	recipe ecoBuyTirePump //TirePump por Dinero
     {
         destroy Money=5,
         keep ToolTrader,
@@ -114,7 +114,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe LlaveCruz por Dinero
+	recipe ecoBuyLugWrench //LlaveCruz por Dinero
     {
         destroy Money=5,
         keep ToolTrader,
@@ -126,7 +126,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe LlaveTubos por Dinero
+	recipe ecoBuyPipeWrench //LlaveTubos por Dinero
     {
         destroy Money=10,
         keep ToolTrader,
@@ -138,7 +138,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe BatteryCharger Dinero
+	recipe ecoBuyCarBatteryCharger //BatteryCharger Dinero
     {
         destroy Money=10,
         keep ToolTrader,
@@ -150,7 +150,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Propano Dinero
+	recipe ecoBuyPropaneTank //Propano Dinero
     {
         destroy Money=15,
         keep ToolTrader,
@@ -162,7 +162,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-		recipe Almadena Dinero
+    recipe ecoBuySledgehammer //Almadena Dinero
     {
         destroy Money=50,
         keep ToolTrader,
@@ -174,7 +174,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-		recipe Palanca Dinero
+    recipe ecoBuyCrowbar //Palanca Dinero
     {
         destroy Money=15,
         keep ToolTrader,

@@ -4,5 +4,5 @@ ItemName_EN = {
 	ItemName_AutomaticEconomyTrader.ToolTrader = "Tool Dispencer"
 	ItemName_AutomaticEconomyTrader.FoodTrader = "Food Dispencer"
 	ItemName_AutomaticEconomyTrader.WeaponTrader = "Weapon Dispencer"
-	ItemName_AutomaticEconomyTrader.Centavo = "Cents"
+	ItemName_AutomaticEconomyTrader.SpareChange = "Spare Change"
 	}

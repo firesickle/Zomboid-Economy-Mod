@@ -18,7 +18,7 @@ module AutomaticEconomyTrader {
 	
 	/*Comida*/
 	
-	recipe Comida ligera por Dinero
+	recipe ecoBuyCannedSardines //Comida ligera por Dinero
     {
         destroy Money=3,
         keep FoodTrader,
@@ -30,7 +30,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Comida enlatada por Dinero
+	recipe ecoBuyCannedBolognese //Comida enlatada por Dinero
     {
         destroy Money=4,
         keep FoodTrader,
@@ -42,7 +42,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Soda por Dinero
+	recipe ecoBuyPop2 //Soda por Dinero
     {
         destroy Money=1,
         keep FoodTrader,
@@ -54,7 +54,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Agua por Dinero
+	recipe ecoBuyWaterBottleFull //Agua por Dinero
     {
         destroy Money=2,
         keep FoodTrader,
@@ -66,7 +66,7 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	recipe Abrelatas por Dinero
+	recipe ecoBuyTinOpener //Abrelatas por Dinero
     {
         destroy Money=2,
         keep FoodTrader,
