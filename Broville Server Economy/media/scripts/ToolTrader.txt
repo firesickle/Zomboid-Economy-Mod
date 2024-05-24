@@ -1,0 +1,187 @@
+module AutomaticEconomyTrader {
+    imports 
+    {
+        Base
+    }
+
+	item ToolTrader
+    {
+        Weight          = 60.0,
+        Type            = Normal,
+        DisplayName     = Dispensador de Herramientas,
+        icon            = ToolTrader,
+		StaticModel = ToolTrader,
+		WorldStaticModel = ToolTrader,
+		DisplayCategory	= Money,
+    }
+	
+	recipe ecoBuyAxe
+    {
+        destroy Money=30,
+        keep ToolTrader,
+
+        Result:	Base.Axe,
+        CanBeDoneFromFloor:true,
+        Category:Money,
+        Time:5,
+        OnTest:Change_All_For_Money_OnTest,
+    }
+	
+	recipe ecoBuySheetMetal
+    {
+        destroy Money=10,
+        keep ToolTrader,
+
+        Result:	Base.SheetMetal,
+        CanBeDoneFromFloor:true,
+        Category:Money,
+        Time:5,
+        OnTest:Change_All_For_Money_OnTest,
+    }
+	
+	recipe ecoBuySmallSheetMetal
+    {
+        destroy Money=5,
+        keep ToolTrader,
+
+        Result:	Base.SmallSheetMetal,
+        CanBeDoneFromFloor:true,
+        Category:Money,
+        Time:5,
+        OnTest:Change_All_For_Money_OnTest,
+    }
+	
+	recipe ecoBuyBlowTorch
+    {
+        destroy Money=10,
+        keep ToolTrader,
+
+        Result:	Base.BlowTorch,
+        CanBeDoneFromFloor:true,
+        Category:Money,
+        Time:5,
+        OnTest:Change_All_For_Money_OnTest,
+    }
+	
+	recipe ecoBuyWeldingMask
+    {
+        destroy Money=10,
+        keep ToolTrader,
+
+        Result:	Base.WeldingMask,
+        CanBeDoneFromFloor:true,
+        Category:Money,
+        Time:5,
+        OnTest:Change_All_For_Money_OnTest,
+    }
+	
+	recipe ecoBuyPetrolCan
+    {
+        destroy Money=20,
+        keep ToolTrader,
+
+        Result:	Base.PetrolCan,
+        CanBeDoneFromFloor:true,
+        Category:Money,
+        Time:5,
+        OnTest:Change_All_For_Money_OnTest,
+    }
+	
+	recipe ecoBuyJack
+    {
+        destroy Money=5,
+        keep ToolTrader,
+
+        Result:	Base.Jack,
+        CanBeDoneFromFloor:true,
+        Category:Money,
+        Time:5,
+        OnTest:Change_All_For_Money_OnTest,
+    }
+	
+	recipe ecoBuyTirePump
+    {
+        destroy Money=5,
+        keep ToolTrader,
+
+        Result:	Base.TirePump,
+        CanBeDoneFromFloor:true,
+        Category:Money,
+        Time:5,
+        OnTest:Change_All_For_Money_OnTest,
+    }
+	
+	recipe ecoBuyLugWrench
+    {
+        destroy Money=5,
+        keep ToolTrader,
+
+        Result:	Base.LugWrench,
+        CanBeDoneFromFloor:true,
+        Category:Money,
+        Time:5,
+        OnTest:Change_All_For_Money_OnTest,
+    }
+	
+	recipe ecoBuyPipeWrench
+    {
+        destroy Money=10,
+        keep ToolTrader,
+
+        Result:	Base.PipeWrench,
+        CanBeDoneFromFloor:true,
+        Category:Money,
+        Time:5,
+        OnTest:Change_All_For_Money_OnTest,
+    }
+	
+	recipe ecoBuyCarBatteryCharger
+    {
+        destroy Money=10,
+        keep ToolTrader,
+
+        Result:	Base.CarBatteryCharger,
+        CanBeDoneFromFloor:true,
+        Category:Money,
+        Time:5,
+        OnTest:Change_All_For_Money_OnTest,
+    }
+	
+	recipe ecoBuyPropaneTank
+    {
+        destroy Money=15,
+        keep ToolTrader,
+
+        Result:	Base.PropaneTank,
+        CanBeDoneFromFloor:true,
+        Category:Money,
+        Time:5,
+        OnTest:Change_All_For_Money_OnTest,
+    }
+	
+    recipe ecoBuySledgehammer
+    {
+        destroy Money=50,
+        keep ToolTrader,
+
+        Result:	Base.Sledgehammer,
+        CanBeDoneFromFloor:true,
+        Category:Money,
+        Time:5,
+        OnTest:Change_All_For_Money_OnTest,
+    }
+	
+    recipe ecoBuyCrowbar
+    {
+        destroy Money=15,
+        keep ToolTrader,
+
+        Result:	Base.Crowbar,
+        CanBeDoneFromFloor:true,
+        Category:Money,
+        Time:5,
+        OnTest:Change_All_For_Money_OnTest,
+    }
+	
+	
+}

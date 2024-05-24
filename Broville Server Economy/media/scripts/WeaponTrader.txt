@@ -1,0 +1,173 @@
+module AutomaticEconomyTrader {
+    imports 
+    {
+        Base
+    }
+
+	item WeaponTrader
+    {
+        Weight          = 60.0,
+        Type            = Normal,
+        DisplayName     = Dispensador de Armas,
+        icon            = WeaponTrader,
+		StaticModel = WeaponTrader,
+		WorldStaticModel = WeaponTrader,
+		DisplayCategory	= Money,
+    }
+	
+	recipe ecoBuyPan
+    {
+        destroy Money=5,
+        keep WeaponTrader,
+
+        Result:	Base.Pan,
+        CanBeDoneFromFloor:true,
+        Category:Money,
+        Time:5,
+        OnTest:Change_All_For_Money_OnTest,
+    }
+	
+	recipe ecoBuyKatana
+    {
+        destroy Money=100,
+        keep WeaponTrader,
+
+        Result: Base.Katana,
+        CanBeDoneFromFloor:true,
+        Category:Money,
+        Time:5,
+        OnTest:Change_All_For_Money_OnTest,
+    }
+
+	recipe ecoBuyMachete
+    {
+        destroy Money=65,
+        keep WeaponTrader,
+
+        Result: Base.Machete,
+        CanBeDoneFromFloor:true,
+        Category:Money,
+        Time:5,
+        OnTest:Change_All_For_Money_OnTest,
+    }
+	
+	recipe ecoBuyMeatCleaver
+    {
+        destroy Money=8,
+        keep WeaponTrader,
+
+        Result: Base.MeatCleaver,
+        CanBeDoneFromFloor:true,
+        Category:Money,
+        Time:5,
+        OnTest:Change_All_For_Money_OnTest,
+    }
+	
+	recipe ecoBuyHuntingKnife
+    {
+        destroy Money=10,
+        keep WeaponTrader,
+
+        Result: Base.HuntingKnife,
+        CanBeDoneFromFloor:true,
+        Category:Money,
+        Time:5,
+        OnTest:Change_All_For_Money_OnTest,
+    }
+	
+	recipe ecoBuyShotgun
+    {
+        destroy Money=30,
+        keep WeaponTrader,
+
+        Result: Base.Shotgun,
+        CanBeDoneFromFloor:true,
+        Category:Money,
+        Time:5,
+        OnTest:Change_All_For_Money_OnTest,
+    }
+
+	recipe ecoBuyShotgunShellsBox
+    {
+        destroy Money=20,
+        keep WeaponTrader,
+
+        Result: Base.ShotgunShellsBox,
+        CanBeDoneFromFloor:true,
+        Category:Money,
+        Time:5,
+        OnTest:Change_All_For_Money_OnTest,
+    }
+	
+	recipe ecoBuyAssaultRifle
+    {
+        destroy Money=80,
+        keep WeaponTrader,
+
+        Result: Base.AssaultRifle,
+        CanBeDoneFromFloor:true,
+        Category:Money,
+        Time:5,
+        OnTest:Change_All_For_Money_OnTest,
+    }
+
+	recipe ecoBuy556Clip
+    {
+        destroy Money=20,
+        keep WeaponTrader,
+
+        Result: Base.556Clip,
+        CanBeDoneFromFloor:true,
+        Category:Money,
+        Time:5,
+        OnTest:Change_All_For_Money_OnTest,
+    }
+
+	recipe ecoBuy556Box
+    {
+        destroy Money=42,
+        keep WeaponTrader,
+
+        Result: Base.556Box,
+        CanBeDoneFromFloor:true,
+        Category:Money,
+        Time:5,
+        OnTest:Change_All_For_Money_OnTest,
+    }
+
+	recipe ecoBuyPistol2
+    {
+        destroy Money=12,
+        keep WeaponTrader,
+
+        Result: Base.Pistol2,
+        CanBeDoneFromFloor:true,
+        Category:Money,
+        Time:5,
+        OnTest:Change_All_For_Money_OnTest,
+    }
+	
+    recipe ecoBuy9mmClip
+    {
+        destroy Money=5,
+        keep WeaponTrader,
+
+        Result: Base.9mmClip,
+        CanBeDoneFromFloor:true,
+        Category:Money,
+        Time:5,
+        OnTest:Change_All_For_Money_OnTest,
+    }
+
+	recipe ecoBuyBullets9mmBox
+    {
+        destroy Money=10,
+        keep WeaponTrader,
+
+        Result: Base.Bullets9mmBox,
+        CanBeDoneFromFloor:true,
+        Category:Money,
+        Time:5,
+        OnTest:Change_All_For_Money_OnTest,
+    }
+}
