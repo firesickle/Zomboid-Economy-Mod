@@ -1,4 +1,4 @@
-module BrovilleServerEconomy {
+module ServerEconomy {
     imports {
         Base
     }
