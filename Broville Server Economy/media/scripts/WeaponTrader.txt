@@ -9,7 +9,7 @@ module BrovilleServerEconomy {
         Weight          = 60.0,
         Type            = Normal,
         DisplayName     = Dispensador de Armas,
-        icon            = WeaponTrader,
+        Icon            = WeaponTrader,
 		StaticModel = WeaponTrader,
 		WorldStaticModel = WeaponTrader,
 		DisplayCategory	= ServerEconomy,

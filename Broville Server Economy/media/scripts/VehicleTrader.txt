@@ -8,7 +8,7 @@ module BrovilleServerEconomy {
         Weight          = 60.0,
         Type            = Normal,
         DisplayName     = Dispensador Mecánico,
-        icon            = VehicleTrader,
+        Icon            = VehicleTrader,
 		StaticModel = VehicleTrader,
 		WorldStaticModel = VehicleTrader,
 		DisplayCategory	= ServerEconomy,

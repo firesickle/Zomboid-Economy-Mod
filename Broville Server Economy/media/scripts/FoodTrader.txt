@@ -9,7 +9,7 @@ module BrovilleServerEconomy {
         Weight          = 60.0,
         Type            = Normal,
         DisplayName     = Dispensador de Comida,
-        icon            = FoodTrader,
+        Icon            = FoodTrader,
 		StaticModel = FoodTrader,
 		WorldStaticModel = FoodTrader,
 		DisplayCategory	= ServerEconomy,

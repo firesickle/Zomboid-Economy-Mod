@@ -9,7 +9,7 @@ module BrovilleServerEconomy {
         Weight          = 60.0,
         Type            = Normal,
         DisplayName     = Dispensador de Herramientas,
-        icon            = ToolTrader,
+        Icon            = ToolTrader,
 		StaticModel = ToolTrader,
 		WorldStaticModel = ToolTrader,
 		DisplayCategory	= ServerEconomy,
