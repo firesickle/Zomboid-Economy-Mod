@@ -1,4 +1,4 @@
-module AutomaticEconomyTrader {
+module BrovilleServerEconomy {
     imports {
         Base
     }
@@ -11,7 +11,7 @@ module AutomaticEconomyTrader {
         icon            = MoneyDispencer,
 		StaticModel = MoneyDispencer,
 		WorldStaticModel = MoneyDispencer,
-		DisplayCategory	= Money,
+		DisplayCategory	= ServerEconomy,
     }
 
 	item SpareChange
@@ -20,7 +20,7 @@ module AutomaticEconomyTrader {
         Type    		= Normal,
 		DisplayName     = SpareChange,
 		icon 			= EconomySpareChange,
-        DisplayCategory = Money,
+        DisplayCategory = ServerEconomy,
     }
 	
 	recipe ecoSellSpareChange

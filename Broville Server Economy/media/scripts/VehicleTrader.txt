@@ -1,8 +1,8 @@
-module AutomaticEconomyTrader {
+module BrovilleServerEconomy {
     imports {
         Base
     }
-/*****maquina para hacer los canjes******/
+
 	item VehicleTrader
     {
         Weight          = 60.0,
@@ -11,13 +11,9 @@ module AutomaticEconomyTrader {
         icon            = VehicleTrader,
 		StaticModel = VehicleTrader,
 		WorldStaticModel = VehicleTrader,
-		DisplayCategory	= Money,
+		DisplayCategory	= ServerEconomy,
     }
 
-	/**************objetos intercambiables**************/
-	
-	/*Vehiculos*/
-	
 	recipe ecoBuyEngineParts
     {
         destroy Money=10,
@@ -30,7 +26,6 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 	
-	/* baterias */
 	recipe ecoBuyCarBattery1
     {
         destroy Money=12,
@@ -67,7 +62,6 @@ module AutomaticEconomyTrader {
         OnTest:Change_All_For_Money_OnTest,
     }
 
-	/*hood capo cofre*/
 	recipe ecoBuyEngineDoor1
     {
         destroy Money=15,

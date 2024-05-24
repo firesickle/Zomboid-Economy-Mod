@@ -1,4 +1,4 @@
-module AutomaticEconomyTrader {
+module BrovilleServerEconomy {
     imports 
     {
         Base
@@ -12,7 +12,7 @@ module AutomaticEconomyTrader {
         icon            = FoodTrader,
 		StaticModel = FoodTrader,
 		WorldStaticModel = FoodTrader,
-		DisplayCategory	= Money,
+		DisplayCategory	= ServerEconomy,
     }
 	
 	recipe ecoBuyCannedSardines

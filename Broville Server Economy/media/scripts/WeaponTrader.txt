@@ -1,4 +1,4 @@
-module AutomaticEconomyTrader {
+module BrovilleServerEconomy {
     imports 
     {
         Base
@@ -12,7 +12,7 @@ module AutomaticEconomyTrader {
         icon            = WeaponTrader,
 		StaticModel = WeaponTrader,
 		WorldStaticModel = WeaponTrader,
-		DisplayCategory	= Money,
+		DisplayCategory	= ServerEconomy,
     }
 	
 	recipe ecoBuyPan
