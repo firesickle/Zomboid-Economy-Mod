@@ -1,8 +1,9 @@
 ItemName_EN = {
-	ItemName_BrovilleServerEconomy.MoneyDispencer = "ATM - Money Dispencer"
-	ItemName_BrovilleServerEconomy.VehicleTrader = "Mechanic Dispencer"
-	ItemName_BrovilleServerEconomy.ToolTrader = "Tool Dispencer"
-	ItemName_BrovilleServerEconomy.FoodTrader = "Food Dispencer"
-	ItemName_BrovilleServerEconomy.WeaponTrader = "Weapon Dispencer"
-	ItemName_BrovilleServerEconomy.SpareChange = "Spare Change"
+	ItemName_BrovilleServerEconomy.ServerEconomyVendingMachine = "Server Economy",
+	ItemName_BrovilleServerEconomy.MoneyDispencer = "ATM - Money Dispencer",
+	ItemName_BrovilleServerEconomy.VehicleTrader = "Mechanic Dispencer",
+	ItemName_BrovilleServerEconomy.ToolTrader = "Tool Dispencer",
+	ItemName_BrovilleServerEconomy.FoodTrader = "Food Dispencer",
+	ItemName_BrovilleServerEconomy.WeaponTrader = "Weapon Dispencer",
+	ItemName_BrovilleServerEconomy.SpareChange = "Spare Change",
 	}

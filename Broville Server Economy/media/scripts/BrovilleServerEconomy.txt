@@ -3,6 +3,17 @@ module BrovilleServerEconomy {
         Base
     }
 
+    item ServerEconomyVendingMachine
+    {
+        Weight          = 60.0,
+        Type            = Normal,
+        DisplayName     = Server Economy Vending Machine,
+        icon            = ServerEconomyVendingMachine,
+		StaticModel = ServerEconomyVendingMachine,
+		WorldStaticModel = ServerEconomyVendingMachine,
+		DisplayCategory	= ServerEconomy,
+    }
+
 	item MoneyDispencer
     {
         Weight          = 60.0,

@@ -1,5 +1,12 @@
 module Base
 {
+	model ServerEconomyVendingMachine
+	{
+		mesh = dispencer,
+		texture = WorldItems/ServerEconomyVendingMachine,
+		scale = 0.4,
+	}
+
 	model MoneyDispencer
 	{
 		mesh = dispencer,
