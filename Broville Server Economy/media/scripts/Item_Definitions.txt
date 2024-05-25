@@ -6,13 +6,13 @@ module ServerEconomy {
 
     item ServerEconomyVendingMachine
     {
-        DisplayCategory	= ServerEconomy,
         Weight          = 10.0,
         Type            = Normal,
         DisplayName     = Server Economy Vending Machine,
         Icon            = ServerEconomyVendingMachine,
 		StaticModel = ServerEconomyVendingMachine,
 		WorldStaticModel = ServerEconomyVendingMachine,
+        DisplayCategory	= ServerEconomy,
     }
 
 	item FoodTrader
