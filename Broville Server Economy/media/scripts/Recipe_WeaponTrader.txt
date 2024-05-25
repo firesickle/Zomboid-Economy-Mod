@@ -4,17 +4,6 @@ module ServerEconomy {
         Base
     }
 
-	item WeaponTrader
-    {
-        Weight          = 60.0,
-        Type            = Normal,
-        DisplayName     = Dispensador de Armas,
-        Icon            = WeaponTrader,
-		StaticModel = WeaponTrader,
-		WorldStaticModel = WeaponTrader,
-		DisplayCategory	= ServerEconomy,
-    }
-	
 	recipe ecoBuyPan
     {
         destroy Money=5,
@@ -22,7 +11,7 @@ module ServerEconomy {
 
         Result:	Base.Pan,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Weapons,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -34,7 +23,7 @@ module ServerEconomy {
 
         Result: Base.Katana,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Weapons,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -46,7 +35,7 @@ module ServerEconomy {
 
         Result: Base.Machete,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Weapons,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -58,7 +47,7 @@ module ServerEconomy {
 
         Result: Base.MeatCleaver,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Weapons,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -70,7 +59,7 @@ module ServerEconomy {
 
         Result: Base.HuntingKnife,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Weapons,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -82,7 +71,7 @@ module ServerEconomy {
 
         Result: Base.Shotgun,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Weapons,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -94,7 +83,7 @@ module ServerEconomy {
 
         Result: Base.ShotgunShellsBox,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Weapons,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -106,7 +95,7 @@ module ServerEconomy {
 
         Result: Base.AssaultRifle,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Weapons,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -118,7 +107,7 @@ module ServerEconomy {
 
         Result: Base.556Clip,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Weapons,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -130,7 +119,7 @@ module ServerEconomy {
 
         Result: Base.556Box,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Weapons,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -142,7 +131,7 @@ module ServerEconomy {
 
         Result: Base.Pistol2,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Weapons,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -154,7 +143,7 @@ module ServerEconomy {
 
         Result: Base.9mmClip,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Weapons,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -166,7 +155,7 @@ module ServerEconomy {
 
         Result: Base.Bullets9mmBox,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Weapons,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }

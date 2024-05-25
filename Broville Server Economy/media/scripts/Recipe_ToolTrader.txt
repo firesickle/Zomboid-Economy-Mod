@@ -4,17 +4,6 @@ module ServerEconomy {
         Base
     }
 
-	item ToolTrader
-    {
-        Weight          = 60.0,
-        Type            = Normal,
-        DisplayName     = Dispensador de Herramientas,
-        Icon            = ToolTrader,
-		StaticModel = ToolTrader,
-		WorldStaticModel = ToolTrader,
-		DisplayCategory	= ServerEconomy,
-    }
-	
 	recipe ecoBuyAxe
     {
         destroy Money=30,
@@ -22,7 +11,7 @@ module ServerEconomy {
 
         Result:	Base.Axe,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Tools,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -34,7 +23,7 @@ module ServerEconomy {
 
         Result:	Base.SheetMetal,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Tools,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -46,7 +35,7 @@ module ServerEconomy {
 
         Result:	Base.SmallSheetMetal,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Tools,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -58,7 +47,7 @@ module ServerEconomy {
 
         Result:	Base.BlowTorch,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Tools,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -70,7 +59,7 @@ module ServerEconomy {
 
         Result:	Base.WeldingMask,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Tools,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -82,7 +71,7 @@ module ServerEconomy {
 
         Result:	Base.PetrolCan,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Tools,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -94,7 +83,7 @@ module ServerEconomy {
 
         Result:	Base.Jack,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Tools,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -106,7 +95,7 @@ module ServerEconomy {
 
         Result:	Base.TirePump,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Tools,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -118,7 +107,7 @@ module ServerEconomy {
 
         Result:	Base.LugWrench,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Tools,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -130,7 +119,7 @@ module ServerEconomy {
 
         Result:	Base.PipeWrench,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Tools,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -142,7 +131,7 @@ module ServerEconomy {
 
         Result:	Base.CarBatteryCharger,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Tools,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -154,7 +143,7 @@ module ServerEconomy {
 
         Result:	Base.PropaneTank,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Tools,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -166,7 +155,7 @@ module ServerEconomy {
 
         Result:	Base.Sledgehammer,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Tools,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -178,7 +167,7 @@ module ServerEconomy {
 
         Result:	Base.Crowbar,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Tools,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }

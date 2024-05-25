@@ -3,37 +3,6 @@ module ServerEconomy {
         Base
     }
 
-    item ServerEconomyVendingMachine
-    {
-        DisplayCategory	= ServerEconomy,
-        Weight          = 10.0,
-        Type            = Normal,
-        DisplayName     = Server Economy Vending Machine,
-        Icon            = ServerEconomyVendingMachine,
-		StaticModel = ServerEconomyVendingMachine,
-		WorldStaticModel = ServerEconomyVendingMachine,
-    }
-
-	item MoneyDispencer
-    {
-        Weight          = 60.0,
-        Type            = Normal,
-        DisplayName     = Dispensador de Dinero,
-        Icon            = MoneyDispencer,
-		StaticModel = MoneyDispencer,
-		WorldStaticModel = MoneyDispencer,
-		DisplayCategory	= ServerEconomy,
-    }
-
-	item SpareChange
-    {
-		Weight    		= 0.001,
-        Type    		= Normal,
-		DisplayName     = SpareChange,
-		Icon 			= EconomySpareChange,
-        DisplayCategory = ServerEconomy,
-    }
-	
 	recipe ecoSellSpareChange
     {
         destroy SpareChange=10,
@@ -41,7 +10,7 @@ module ServerEconomy {
 
         Result:Money,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Sell,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -53,7 +22,7 @@ module ServerEconomy {
 
         Result:SpareChange=2,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Sell,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -65,7 +34,7 @@ module ServerEconomy {
 
         Result:SpareChange=5,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Sell,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -77,7 +46,7 @@ module ServerEconomy {
 
         Result:Money,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Sell,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -89,7 +58,7 @@ module ServerEconomy {
 
         Result:Money=5,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Sell,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }

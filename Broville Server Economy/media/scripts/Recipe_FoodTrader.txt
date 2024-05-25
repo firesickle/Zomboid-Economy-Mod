@@ -4,17 +4,6 @@ module ServerEconomy {
         Base
     }
 
-	item FoodTrader
-    {
-        Weight          = 60.0,
-        Type            = Normal,
-        DisplayName     = Dispensador de Comida,
-        Icon            = FoodTrader,
-		StaticModel = FoodTrader,
-		WorldStaticModel = FoodTrader,
-		DisplayCategory	= ServerEconomy,
-    }
-	
 	recipe ecoBuyCannedSardines
     {
         destroy Money=3,
@@ -22,7 +11,7 @@ module ServerEconomy {
 
         Result:	Base.CannedSardines,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Food,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -34,7 +23,7 @@ module ServerEconomy {
 
         Result:	Base.CannedBolognese,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Food,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -46,7 +35,7 @@ module ServerEconomy {
 
         Result:	Base.Pop2,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Food,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -58,7 +47,7 @@ module ServerEconomy {
 
         Result:	Base.WaterBottleFull,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Food,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -70,7 +59,7 @@ module ServerEconomy {
 
         Result:	Base.TinOpener,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Food,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }

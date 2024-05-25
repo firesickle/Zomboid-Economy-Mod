@@ -1,0 +1,87 @@
+module ServerEconomy {
+    imports 
+    {
+        Base
+    }
+
+    item ServerEconomyVendingMachine
+    {
+        DisplayCategory	= ServerEconomy,
+        Weight          = 10.0,
+        Type            = Normal,
+        DisplayName     = Server Economy Vending Machine,
+        Icon            = ServerEconomyVendingMachine,
+		StaticModel = ServerEconomyVendingMachine,
+		WorldStaticModel = ServerEconomyVendingMachine,
+    }
+
+	item FoodTrader
+    {
+        Weight          = 60.0,
+        Type            = Normal,
+        DisplayName     = Dispensador de Comida,
+        Icon            = FoodTrader,
+		StaticModel = FoodTrader,
+		WorldStaticModel = FoodTrader,
+		DisplayCategory	= ServerEconomy,
+    }
+	
+	item MoneyDispencer
+    {
+        Weight          = 60.0,
+        Type            = Normal,
+        DisplayName     = Dispensador de Dinero,
+        Icon            = MoneyDispencer,
+		StaticModel = MoneyDispencer,
+		WorldStaticModel = MoneyDispencer,
+		DisplayCategory	= ServerEconomy,
+    }
+
+	item SpareChange
+    {
+		Weight    		= 0.001,
+        Type    		= Normal,
+		DisplayName     = SpareChange,
+		Icon 			= EconomySpareChange,
+        DisplayCategory = ServerEconomy,
+    }
+
+    
+	item ToolTrader
+    {
+        Weight          = 60.0,
+        Type            = Normal,
+        DisplayName     = Dispensador de Herramientas,
+        Icon            = ToolTrader,
+		StaticModel = ToolTrader,
+		WorldStaticModel = ToolTrader,
+		DisplayCategory	= ServerEconomy,
+    }
+	
+
+	item VehicleTrader
+    {
+        Weight          = 60.0,
+        Type            = Normal,
+        DisplayName     = Dispensador Mecánico,
+        Icon            = VehicleTrader,
+		StaticModel = VehicleTrader,
+		WorldStaticModel = VehicleTrader,
+		DisplayCategory	= ServerEconomy,
+    }
+
+
+	item WeaponTrader
+    {
+        Weight          = 60.0,
+        Type            = Normal,
+        DisplayName     = Dispensador de Armas,
+        Icon            = WeaponTrader,
+		StaticModel = WeaponTrader,
+		WorldStaticModel = WeaponTrader,
+		DisplayCategory	= ServerEconomy,
+    }
+	
+
+}
+	

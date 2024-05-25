@@ -3,17 +3,6 @@ module ServerEconomy {
         Base
     }
 
-	item VehicleTrader
-    {
-        Weight          = 60.0,
-        Type            = Normal,
-        DisplayName     = Dispensador Mecánico,
-        Icon            = VehicleTrader,
-		StaticModel = VehicleTrader,
-		WorldStaticModel = VehicleTrader,
-		DisplayCategory	= ServerEconomy,
-    }
-
 	recipe ecoBuyEngineParts
     {
         destroy Money=10,
@@ -21,7 +10,7 @@ module ServerEconomy {
 
         Result:Base.EngineParts,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -33,7 +22,7 @@ module ServerEconomy {
 
         Result:Base.CarBattery1,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -45,7 +34,7 @@ module ServerEconomy {
 
         Result:Base.CarBattery2,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -57,7 +46,7 @@ module ServerEconomy {
 
         Result:Base.CarBattery3,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -69,7 +58,7 @@ module ServerEconomy {
 
         Result:Base.EngineDoor1,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -81,7 +70,7 @@ module ServerEconomy {
 
         Result:Base.EngineDoor2,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -93,7 +82,7 @@ module ServerEconomy {
 
         Result:Base.EngineDoor3,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -106,7 +95,7 @@ module ServerEconomy {
 
         Result:Base.TrunkDoor1,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -118,7 +107,7 @@ module ServerEconomy {
 
         Result:Base.TrunkDoor2,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -130,7 +119,7 @@ module ServerEconomy {
 
         Result:Base.TrunkDoor3,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -142,7 +131,7 @@ module ServerEconomy {
 
         Result:Base.OldBrake1,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -154,7 +143,7 @@ module ServerEconomy {
 
         Result:Base.OldBrake2,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -166,7 +155,7 @@ module ServerEconomy {
 
         Result:Base.OldBrake3,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -178,7 +167,7 @@ module ServerEconomy {
 
         Result:Base.NormalBrake1,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -190,7 +179,7 @@ module ServerEconomy {
 
         Result:Base.NormalBrake2,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -202,7 +191,7 @@ module ServerEconomy {
 
         Result:Base.NormalBrake3,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -214,7 +203,7 @@ module ServerEconomy {
 
         Result:Base.ModernBrake1,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -226,7 +215,7 @@ module ServerEconomy {
 
         Result:Base.ModernBrake2,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -238,7 +227,7 @@ module ServerEconomy {
 
         Result:Base.ModernBrake3,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -250,7 +239,7 @@ module ServerEconomy {
 
         Result:Base.FrontCarDoor1,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -262,7 +251,7 @@ module ServerEconomy {
 
         Result:Base.FrontCarDoor2,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -274,7 +263,7 @@ module ServerEconomy {
 
         Result:Base.FrontCarDoor3,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -286,7 +275,7 @@ module ServerEconomy {
 
         Result:Base.RearCarDoor1,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -298,7 +287,7 @@ module ServerEconomy {
 
         Result:Base.RearCarDoor2,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -310,7 +299,7 @@ module ServerEconomy {
 
         Result:Base.RearCarDoor3,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -322,7 +311,7 @@ module ServerEconomy {
 
         Result:Base.RearCarDoorDouble1,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -334,7 +323,7 @@ module ServerEconomy {
 
         Result:Base.RearCarDoorDouble2,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -346,7 +335,7 @@ module ServerEconomy {
 
         Result:Base.RearCarDoorDouble3,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -358,7 +347,7 @@ module ServerEconomy {
 
         Result:Base.SmallGasTank1,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -370,7 +359,7 @@ module ServerEconomy {
 
         Result:Base.SmallGasTank2,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -382,7 +371,7 @@ module ServerEconomy {
 
         Result:Base.SmallGasTank3,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -394,7 +383,7 @@ module ServerEconomy {
 
         Result:Base.NormalGasTank1,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -406,7 +395,7 @@ module ServerEconomy {
 
         Result:Base.NormalGasTank2,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -418,7 +407,7 @@ module ServerEconomy {
 
         Result:Base.NormalGasTank3,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -430,7 +419,7 @@ module ServerEconomy {
 
         Result:Base.BigGasTank1,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -442,7 +431,7 @@ module ServerEconomy {
 
         Result:Base.BigGasTank2,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -454,7 +443,7 @@ module ServerEconomy {
 
         Result:Base.BigGasTank3,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -466,7 +455,7 @@ module ServerEconomy {
 
         Result:Base.OldCarMuffler1,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -478,7 +467,7 @@ module ServerEconomy {
 
         Result:Base.OldCarMuffler2,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -490,7 +479,7 @@ module ServerEconomy {
 
         Result:Base.OldCarMuffler3,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -502,7 +491,7 @@ module ServerEconomy {
 
         Result:Base.NormalCarMuffler1,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -514,7 +503,7 @@ module ServerEconomy {
 
         Result:Base.NormalCarMuffler2,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -526,7 +515,7 @@ module ServerEconomy {
 
         Result:Base.NormalCarMuffler3,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -538,7 +527,7 @@ module ServerEconomy {
 
         Result:Base.ModernCarMuffler1,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -550,7 +539,7 @@ module ServerEconomy {
 
         Result:Base.ModernCarMuffler2,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -562,7 +551,7 @@ module ServerEconomy {
 
         Result:Base.ModernCarMuffler3,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -574,7 +563,7 @@ module ServerEconomy {
 
         Result:Base.NormalSuspension1,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -586,7 +575,7 @@ module ServerEconomy {
 
         Result:Base.NormalSuspension2,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -598,7 +587,7 @@ module ServerEconomy {
 
         Result:Base.NormalSuspension3,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -610,7 +599,7 @@ module ServerEconomy {
 
         Result:Base.ModernSuspension1,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -622,7 +611,7 @@ module ServerEconomy {
 
         Result:Base.ModernSuspension2,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -634,7 +623,7 @@ module ServerEconomy {
 
         Result:Base.ModernSuspension3,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -646,7 +635,7 @@ module ServerEconomy {
 
         Result:Base.NormalCarSeat1,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -658,7 +647,7 @@ module ServerEconomy {
 
         Result:Base.NormalCarSeat2,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -670,7 +659,7 @@ module ServerEconomy {
 
         Result:Base.NormalCarSeat3,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -682,7 +671,7 @@ module ServerEconomy {
 
         Result:Base.OldTire1,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -694,7 +683,7 @@ module ServerEconomy {
 
         Result:Base.OldTire2,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -706,7 +695,7 @@ module ServerEconomy {
 
         Result:Base.OldTire3,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -718,7 +707,7 @@ module ServerEconomy {
 
         Result:Base.NormalTire1,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -730,7 +719,7 @@ module ServerEconomy {
 
         Result:Base.NormalTire2,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -742,7 +731,7 @@ module ServerEconomy {
 
         Result:Base.NormalTire3,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -754,7 +743,7 @@ module ServerEconomy {
 
         Result:Base.ModernTire1,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -766,7 +755,7 @@ module ServerEconomy {
 
         Result:Base.ModernTire2,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -778,7 +767,7 @@ module ServerEconomy {
 
         Result:Base.ModernTire3,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:5,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -790,7 +779,7 @@ module ServerEconomy {
 
         Result:Base.Windshield1,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:10,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -802,7 +791,7 @@ module ServerEconomy {
 
         Result:Base.Windshield2,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:10,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -814,7 +803,7 @@ module ServerEconomy {
 
         Result:Base.Windshield3,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:10,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -826,7 +815,7 @@ module ServerEconomy {
 
         Result:Base.RearWindshield1,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:10,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -838,7 +827,7 @@ module ServerEconomy {
 
         Result:Base.RearWindshield2,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:10,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -850,7 +839,7 @@ module ServerEconomy {
 
         Result:Base.RearWindshield3,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:10,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -862,7 +851,7 @@ module ServerEconomy {
 
         Result:Base.FrontWindow1,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:10,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -874,7 +863,7 @@ module ServerEconomy {
 
         Result:Base.FrontWindow2,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:10,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -886,7 +875,7 @@ module ServerEconomy {
 
         Result:Base.FrontWindow3,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:10,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -898,7 +887,7 @@ module ServerEconomy {
 
         Result:Base.RearWindow1,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:10,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -910,7 +899,7 @@ module ServerEconomy {
 
         Result:Base.RearWindow2,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:10,
         OnTest:Change_All_For_Money_OnTest,
     }
@@ -922,7 +911,7 @@ module ServerEconomy {
 
         Result:Base.RearWindow3,
         CanBeDoneFromFloor:true,
-        Category:Money,
+        Category:Money-Vehicles,
         Time:10,
         OnTest:Change_All_For_Money_OnTest,
     }
